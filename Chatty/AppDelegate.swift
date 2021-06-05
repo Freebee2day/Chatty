@@ -22,12 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let parseConfig = ParseClientConfiguration {
                 //chatty database:
-//                $0.applicationId = "5o9MYYvmbNvRXm8uCMHjBzOBog3mh9u1peUe1Gsu" // <- UPDATE
-//                $0.clientKey = "1Lr2wWoX9mmFxIRDfwVmHOZdQGjfyNooRbVZxY0d" // <- UPDATE
+                $0.applicationId = "5o9MYYvmbNvRXm8uCMHjBzOBog3mh9u1peUe1Gsu" // <- UPDATE
+                $0.clientKey = "1Lr2wWoX9mmFxIRDfwVmHOZdQGjfyNooRbVZxY0d" // <- UPDATE
             
                 //Kite Database
-                $0.applicationId = "2ZkozU59JsUF5aCVzD59u0CGmQUs55QWD3zV5ZUE" // <- UPDATE
-                $0.clientKey = "pWklacdcyh9p659HdhEPNg0fF8O1DjGMUUA0vXrz" // <- UPDATE
+//                $0.applicationId = "2ZkozU59JsUF5aCVzD59u0CGmQUs55QWD3zV5ZUE" // <- UPDATE
+//                $0.clientKey = "pWklacdcyh9p659HdhEPNg0fF8O1DjGMUUA0vXrz" // <- UPDATE
                 $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: parseConfig)
